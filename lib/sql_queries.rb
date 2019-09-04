@@ -15,7 +15,7 @@ def selects_oldest_bear_and_returns_name_and_age
 end
 
 def select_youngest_bear_and_returns_name_and_age
-  "select name, age from bears order by age asce "
+  "select name, age from bears order by age asc limit 1"
 end
 
 def selects_most_prominent_color_and_returns_with_count
